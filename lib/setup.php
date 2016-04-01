@@ -27,7 +27,8 @@ function setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus([
-    'primary_navigation' => __('Primary Navigation', 'sage')
+    'primary_navigation' => __('Primary Navigation', 'sage'),
+    'footer_navigation' => __('Footer Navigation', 'sage')
   ]);
 
   // Enable post thumbnails
@@ -71,6 +72,33 @@ function widgets_init() {
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
   ]);
+
+  register_sidebar([
+    'name'          => __('Footer Bottom', 'sage'),
+    'id'            => 'sidebar-footer-bottom',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
+  register_sidebar([
+    'name'          => __('Footer Top Left', 'sage'),
+    'id'            => 'sidebar-footer-top-left',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+  register_sidebar([
+    'name'          => __('Footer Top Right', 'sage'),
+    'id'            => 'sidebar-footer-top-right',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
 }
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 

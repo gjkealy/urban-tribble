@@ -1,0 +1,14 @@
+nav {
+	text-transform: uppercase;
+}
+
+.nav-footer {
+	.nav-pills {
+		li a {
+			color: $link-hover-color;
+			&:hover {
+				color: $gray-lighter;
+			}
+		}
+	}
+}
