@@ -6,9 +6,22 @@
 
 .page-header-background {
 	height: 100%;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5) ), url( '../../assets/images/competition.jpg' );
-	background-position: center;
-	background-size: cover;
+}
+
+.home {
+	.page-header-background {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5) ), url( '../../assets/images/competition.jpg' );
+		background-position: center;
+		background-size: cover;
+	}
+}
+.contact {
+	.page-header-background {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5) ), url( '../../assets/images/mail.jpg' );
+		background-position: top;
+		background-size: cover;
+		filter: grayscale(100%);
+	}
 }
 
 .page-header-content {
