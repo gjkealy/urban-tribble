@@ -8,8 +8,14 @@
 	      ?>
 	    </nav>
 	<?php else : ?>
-		<?php dynamic_sidebar('sidebar-footer-top-left'); ?>
-		<?php dynamic_sidebar('sidebar-footer-top-right'); ?>
+		<div class="footer-extended-content row">
+			<div class="col-md-6">
+				<?php dynamic_sidebar('sidebar-footer-top-left'); ?>
+			</div>
+			<div class="col-md-6">
+				<?php dynamic_sidebar('sidebar-footer-top-right'); ?>
+			</div>
+		</div>
 	<?php endif; ?>
 </footer>
 
