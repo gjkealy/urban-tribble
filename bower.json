@@ -17,7 +17,7 @@
         "./assets/stylesheets/bootstrap/_print.scss",
         "./assets/stylesheets/bootstrap/_glyphicons.scss",
         "./assets/stylesheets/bootstrap/_scaffolding.scss",
-        "./assets/stylesheets/bootstrap/_type.scss",
+        
         "./assets/stylesheets/bootstrap/_code.scss",
         "./assets/stylesheets/bootstrap/_grid.scss",
         "./assets/stylesheets/bootstrap/_tables.scss",

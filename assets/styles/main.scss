@@ -7,7 +7,6 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss";
@@ -43,11 +42,14 @@
 // endbower
 
 @import "common/global";
+
+@import "components/type";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
 @import "components/wp-classes";
+
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
