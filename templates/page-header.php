@@ -3,6 +3,6 @@
 <div class="page-header">
   <div class="page-header-background"></div>
   <div class="page-header-content">
-    <p class="standfirst"><?= Titles\title(); ?></p>
+    <p class="standfirst"><?php the_field( 'page_header' ) ?></p>
   </div>
 </div>
