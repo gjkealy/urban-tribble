@@ -298,5 +298,8 @@ address {
 
 // Text in page headings
 .standfirst {
-  font-size: $font-size-h1;
+  font-size: $font-size-h3;
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-h1;
+  }
 }
