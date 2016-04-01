@@ -1,0 +1,46 @@
+.page-header {
+	height: 55vh;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.page-header-background {
+	height: 100%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5) ), url( '../../assets/images/competition.jpg' );
+	background-position: center;
+	background-size: cover;
+}
+
+.page-header-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	width: 80%;
+	text-align: center;
+	color: $gray-lighter;
+}
+
+.page-header-contact {
+	height: 55vh;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.page-header-contact-background {
+	height: 100%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5) ), url( '../../assets/images/mail.jpg' );
+	background-position: top;
+	background-size: cover;
+	filter: grayscale(100%);
+}
+
+.page-header-contact-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	width: 80%;
+	text-align: center;
+	color: $gray-lighter;
+}

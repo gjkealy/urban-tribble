@@ -17,6 +17,7 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       if ( !is_front_page() ) : get_template_part('templates/header'); endif;
+      get_template_part('templates/page', 'header');
     ?>
     <div class="wrap container" role="document">
       <div class="content row">
