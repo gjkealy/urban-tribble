@@ -1,3 +1,46 @@
+.front-page-section-sm {
+	height: 700px;
+	.row {
+		height: 100%;
+	} 
+}
+
+.front-page-section-title-sm {
+	height: 70%;
+	color: $brand-primary;
+	position: relative;
+	background-image: url( '../../assets/images/circle-red.svg' );
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.front-page-section-title-content-sm {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	text-align: center;
+	h1 { margin: 0px; }
+}
+
+.front-page-section-text-sm {
+	height: 30%;
+	position: relative;
+	font-size: $font-size-large;
+}
+
+.front-page-section-text-content-sm {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	width: 90%;
+	text-align: center;
+}
+
+_______________________________________________________
+
 .front-page-section {
 	height: 50vh;
 	.row {
@@ -39,12 +82,14 @@
 	text-align: center;
 }
 
-.front-page-section-speed {
-	position: relative;
-	top: -40px;
-}
+@media (min-width: $screen-md-min) {
+	.front-page-section-speed {
+		position: relative;
+		top: -40px;
+	}
 
-.front-page-section-seo {
-	position: relative;
-	top: -80px;
+	.front-page-section-seo {
+		position: relative;
+		top: -80px;
+	}
 }
